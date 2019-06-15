@@ -17,5 +17,5 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::get('/get', 'HotelController@getHotels');
+Route::get('/get', 'HotelController@getData');
 Route::put('/search', 'HotelController@search');
