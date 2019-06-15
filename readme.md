@@ -9,6 +9,14 @@ For install this project: <br>
 
 `composer install`
 
+**Copy .example.env to .env**
+
+**Set up database enviromment variables**
+
+**Genetare key**
+
+`php artisan key:generate`
+
 **Install node (if node is not install)**
 
 `node install`
