@@ -37,3 +37,6 @@ For install this project: <br>
 
 `php artisan serve`
 
+**Build project**
+
+`npm run watch`
